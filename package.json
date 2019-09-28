@@ -1,0 +1,22 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "\"Juan Manuel Delgado Marcos\"",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "default": "^0.1.1",
+    "defaults": "^1.0.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.2",
+    "socket.io": "^2.3.0"
+  }
+}
